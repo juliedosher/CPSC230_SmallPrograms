@@ -78,6 +78,9 @@
     <EmbeddedResource Include="FormBMI.resx">
       <DependentUpon>FormBMI.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormWordCount.resx">
+      <DependentUpon>FormWordCount.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
