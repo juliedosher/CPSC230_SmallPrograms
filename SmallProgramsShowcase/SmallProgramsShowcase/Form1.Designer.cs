@@ -30,12 +30,12 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.miHelp = new System.Windows.Forms.ToolStripMenuItem();
             this.bMICalculatorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.passwordGeneratorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.wordCounterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.button1 = new System.Windows.Forms.Button();
+            this.miExit = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnExit = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.menuStrip1.SuspendLayout();
@@ -45,7 +45,7 @@
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
-            this.helpToolStripMenuItem});
+            this.miHelp});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(800, 24);
@@ -58,16 +58,16 @@
             this.bMICalculatorToolStripMenuItem,
             this.passwordGeneratorToolStripMenuItem,
             this.wordCounterToolStripMenuItem,
-            this.exitToolStripMenuItem});
+            this.miExit});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
             this.fileToolStripMenuItem.Text = "File";
             // 
-            // helpToolStripMenuItem
+            // miHelp
             // 
-            this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
-            this.helpToolStripMenuItem.Text = "Help";
+            this.miHelp.Name = "miHelp";
+            this.miHelp.Size = new System.Drawing.Size(44, 20);
+            this.miHelp.Text = "Help";
             // 
             // bMICalculatorToolStripMenuItem
             // 
@@ -87,20 +87,20 @@
             this.wordCounterToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.wordCounterToolStripMenuItem.Text = "Word Counter";
             // 
-            // exitToolStripMenuItem
+            // miExit
             // 
-            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.exitToolStripMenuItem.Text = "Exit";
+            this.miExit.Name = "miExit";
+            this.miExit.Size = new System.Drawing.Size(180, 22);
+            this.miExit.Text = "Exit";
             // 
-            // button1
+            // btnExit
             // 
-            this.button1.Location = new System.Drawing.Point(364, 415);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Exit";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnExit.Location = new System.Drawing.Point(364, 415);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(75, 23);
+            this.btnExit.TabIndex = 1;
+            this.btnExit.Text = "Exit";
+            this.btnExit.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
@@ -124,7 +124,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnExit);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
@@ -143,9 +143,9 @@
         private System.Windows.Forms.ToolStripMenuItem bMICalculatorToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem passwordGeneratorToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem wordCounterToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.ToolStripMenuItem miExit;
+        private System.Windows.Forms.ToolStripMenuItem miHelp;
+        private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
     }

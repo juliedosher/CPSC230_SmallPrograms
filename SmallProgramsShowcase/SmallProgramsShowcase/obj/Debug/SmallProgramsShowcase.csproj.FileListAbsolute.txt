@@ -1,0 +1,11 @@
+D:\Projects\School\NETProgramming\SmallPrograms\SmallProgramsShowcase\SmallProgramsShowcase\obj\Debug\SmallProgramsShowcase.csproj.AssemblyReference.cache
+D:\Projects\School\NETProgramming\SmallPrograms\SmallProgramsShowcase\SmallProgramsShowcase\obj\Debug\SmallProgramsShowcase.csproj.SuggestedBindingRedirects.cache
+D:\Projects\School\NETProgramming\SmallPrograms\SmallProgramsShowcase\SmallProgramsShowcase\obj\Debug\SmallProgramsShowcase.Form1.resources
+D:\Projects\School\NETProgramming\SmallPrograms\SmallProgramsShowcase\SmallProgramsShowcase\obj\Debug\SmallProgramsShowcase.Properties.Resources.resources
+D:\Projects\School\NETProgramming\SmallPrograms\SmallProgramsShowcase\SmallProgramsShowcase\obj\Debug\SmallProgramsShowcase.csproj.GenerateResource.cache
+D:\Projects\School\NETProgramming\SmallPrograms\SmallProgramsShowcase\SmallProgramsShowcase\obj\Debug\SmallProgramsShowcase.csproj.CoreCompileInputs.cache
+D:\Projects\School\NETProgramming\SmallPrograms\SmallProgramsShowcase\SmallProgramsShowcase\bin\Debug\SmallProgramsShowcase.exe.config
+D:\Projects\School\NETProgramming\SmallPrograms\SmallProgramsShowcase\SmallProgramsShowcase\bin\Debug\SmallProgramsShowcase.exe
+D:\Projects\School\NETProgramming\SmallPrograms\SmallProgramsShowcase\SmallProgramsShowcase\bin\Debug\SmallProgramsShowcase.pdb
+D:\Projects\School\NETProgramming\SmallPrograms\SmallProgramsShowcase\SmallProgramsShowcase\obj\Debug\SmallProgramsShowcase.exe
+D:\Projects\School\NETProgramming\SmallPrograms\SmallProgramsShowcase\SmallProgramsShowcase\obj\Debug\SmallProgramsShowcase.pdb
