@@ -35,5 +35,10 @@ namespace SmallProgramsShowcase
         {
             MessageBox.Show("\"Small Programs Showcase\" by Julie Dosher \nfor CPSC 23000 Summer 2023");
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

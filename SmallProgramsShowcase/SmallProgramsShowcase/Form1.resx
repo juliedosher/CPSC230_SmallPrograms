@@ -120,4 +120,8 @@
   <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Thank you for downloading "Small Programs Showcase." This program gives you access to three great tools: BMI Calculator, Password Generator, and Word Counter. Choose which one you want to play from the File menu above. Have fun!
+</value>
+  </data>
 </root>
