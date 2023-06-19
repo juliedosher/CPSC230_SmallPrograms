@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
+            this.rtbStory = new System.Windows.Forms.RichTextBox();
+            this.rtbCount = new System.Windows.Forms.RichTextBox();
             this.btnCount = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -44,22 +44,22 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Type your story below, and then press Count.";
             // 
-            // richTextBox1
+            // rtbStory
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(15, 48);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(511, 172);
-            this.richTextBox1.TabIndex = 1;
-            this.richTextBox1.Text = "";
+            this.rtbStory.Location = new System.Drawing.Point(15, 48);
+            this.rtbStory.Name = "rtbStory";
+            this.rtbStory.Size = new System.Drawing.Size(511, 172);
+            this.rtbStory.TabIndex = 1;
+            this.rtbStory.Text = "";
             // 
-            // richTextBox2
+            // rtbCount
             // 
-            this.richTextBox2.Location = new System.Drawing.Point(549, 48);
-            this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.ReadOnly = true;
-            this.richTextBox2.Size = new System.Drawing.Size(176, 327);
-            this.richTextBox2.TabIndex = 2;
-            this.richTextBox2.Text = "";
+            this.rtbCount.Location = new System.Drawing.Point(549, 48);
+            this.rtbCount.Name = "rtbCount";
+            this.rtbCount.ReadOnly = true;
+            this.rtbCount.Size = new System.Drawing.Size(176, 327);
+            this.rtbCount.TabIndex = 2;
+            this.rtbCount.Text = "";
             // 
             // btnCount
             // 
@@ -89,8 +89,8 @@
             this.ClientSize = new System.Drawing.Size(753, 441);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnCount);
-            this.Controls.Add(this.richTextBox2);
-            this.Controls.Add(this.richTextBox1);
+            this.Controls.Add(this.rtbCount);
+            this.Controls.Add(this.rtbStory);
             this.Controls.Add(this.label1);
             this.Name = "FormWordCount";
             this.Text = "Word Counter";
@@ -102,8 +102,8 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.RichTextBox richTextBox1;
-        private System.Windows.Forms.RichTextBox richTextBox2;
+        private System.Windows.Forms.RichTextBox rtbStory;
+        private System.Windows.Forms.RichTextBox rtbCount;
         private System.Windows.Forms.Button btnCount;
         private System.Windows.Forms.Button btnClose;
     }
