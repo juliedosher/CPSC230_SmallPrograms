@@ -16,9 +16,17 @@ namespace SmallProgramsShowcase
         {
             InitializeComponent();
 
+            miBMI.Click += MiBMI_Click;
+
             miExit.Click += MiExit_Click;
             miHelp.Click += MiHelp_Click;
             btnExit.Click += BtnExit_Click;
+        }
+
+        private void MiBMI_Click(object sender, EventArgs e)
+        {
+            FormBMI form = new FormBMI();
+            form.ShowDialog();
         }
 
         private void MiExit_Click(object sender, EventArgs e)

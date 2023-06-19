@@ -31,11 +31,11 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.miHelp = new System.Windows.Forms.ToolStripMenuItem();
-            this.bMICalculatorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.miBMI = new System.Windows.Forms.ToolStripMenuItem();
             this.passwordGeneratorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.wordCounterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.miExit = new System.Windows.Forms.ToolStripMenuItem();
+            this.miHelp = new System.Windows.Forms.ToolStripMenuItem();
             this.btnExit = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
@@ -56,7 +56,7 @@
             // fileToolStripMenuItem
             // 
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.bMICalculatorToolStripMenuItem,
+            this.miBMI,
             this.passwordGeneratorToolStripMenuItem,
             this.wordCounterToolStripMenuItem,
             this.miExit});
@@ -64,17 +64,11 @@
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
             this.fileToolStripMenuItem.Text = "File";
             // 
-            // miHelp
+            // miBMI
             // 
-            this.miHelp.Name = "miHelp";
-            this.miHelp.Size = new System.Drawing.Size(44, 20);
-            this.miHelp.Text = "Help";
-            // 
-            // bMICalculatorToolStripMenuItem
-            // 
-            this.bMICalculatorToolStripMenuItem.Name = "bMICalculatorToolStripMenuItem";
-            this.bMICalculatorToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.bMICalculatorToolStripMenuItem.Text = "BMI Calculator";
+            this.miBMI.Name = "miBMI";
+            this.miBMI.Size = new System.Drawing.Size(180, 22);
+            this.miBMI.Text = "BMI Calculator";
             // 
             // passwordGeneratorToolStripMenuItem
             // 
@@ -93,6 +87,12 @@
             this.miExit.Name = "miExit";
             this.miExit.Size = new System.Drawing.Size(180, 22);
             this.miExit.Text = "Exit";
+            // 
+            // miHelp
+            // 
+            this.miHelp.Name = "miHelp";
+            this.miHelp.Size = new System.Drawing.Size(44, 20);
+            this.miHelp.Text = "Help";
             // 
             // btnExit
             // 
@@ -115,6 +115,7 @@
             // 
             this.richTextBox1.Location = new System.Drawing.Point(12, 24);
             this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.ReadOnly = true;
             this.richTextBox1.Size = new System.Drawing.Size(416, 237);
             this.richTextBox1.TabIndex = 3;
             this.richTextBox1.Text = resources.GetString("richTextBox1.Text");
@@ -144,7 +145,7 @@
 
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem bMICalculatorToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem miBMI;
         private System.Windows.Forms.ToolStripMenuItem passwordGeneratorToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem wordCounterToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem miExit;

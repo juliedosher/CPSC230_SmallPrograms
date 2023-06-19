@@ -122,6 +122,7 @@
             this.rtbBMI.BackColor = System.Drawing.SystemColors.Control;
             this.rtbBMI.Location = new System.Drawing.Point(111, 220);
             this.rtbBMI.Name = "rtbBMI";
+            this.rtbBMI.ReadOnly = true;
             this.rtbBMI.Size = new System.Drawing.Size(44, 21);
             this.rtbBMI.TabIndex = 9;
             this.rtbBMI.Text = "";
@@ -131,6 +132,7 @@
             this.rtbStatus.BackColor = System.Drawing.SystemColors.Control;
             this.rtbStatus.Location = new System.Drawing.Point(111, 259);
             this.rtbStatus.Name = "rtbStatus";
+            this.rtbStatus.ReadOnly = true;
             this.rtbStatus.Size = new System.Drawing.Size(112, 21);
             this.rtbStatus.TabIndex = 10;
             this.rtbStatus.Text = "";
