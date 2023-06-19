@@ -17,6 +17,8 @@ namespace SmallProgramsShowcase
             InitializeComponent();
 
             miBMI.Click += MiBMI_Click;
+            miPassGen.Click += MiPassGen_Click;
+            miWordCount.Click += MiWordCount_Click;
 
             miExit.Click += MiExit_Click;
             miHelp.Click += MiHelp_Click;
@@ -26,6 +28,18 @@ namespace SmallProgramsShowcase
         private void MiBMI_Click(object sender, EventArgs e)
         {
             FormBMI form = new FormBMI();
+            form.ShowDialog();
+        }
+
+        private void MiPassGen_Click(object sender, EventArgs e)
+        {
+            FormPassGen form = new FormPassGen();
+            form.ShowDialog();
+        }
+
+        private void MiWordCount_Click(object sender, EventArgs e)
+        {
+            FormWordCount form = new FormWordCount();
             form.ShowDialog();
         }
 
@@ -51,6 +65,11 @@ namespace SmallProgramsShowcase
         }
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void fileToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
         }

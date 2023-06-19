@@ -10,3 +10,5 @@ D:\Projects\School\NETProgramming\SmallPrograms\SmallProgramsShowcase\SmallProgr
 D:\Projects\School\NETProgramming\SmallPrograms\SmallProgramsShowcase\SmallProgramsShowcase\obj\Debug\SmallProgramsShowcase.exe
 D:\Projects\School\NETProgramming\SmallPrograms\SmallProgramsShowcase\SmallProgramsShowcase\obj\Debug\SmallProgramsShowcase.pdb
 D:\Projects\School\NETProgramming\SmallPrograms\SmallProgramsShowcase\SmallProgramsShowcase\obj\Debug\SmallProgramsShowcase.FormBMI.resources
+D:\Projects\School\NETProgramming\SmallPrograms\SmallProgramsShowcase\SmallProgramsShowcase\obj\Debug\SmallProgramsShowcase.FormWordCount.resources
+D:\Projects\School\NETProgramming\SmallPrograms\SmallProgramsShowcase\SmallProgramsShowcase\obj\Debug\SmallProgramsShowcase.FormPassGen.resources

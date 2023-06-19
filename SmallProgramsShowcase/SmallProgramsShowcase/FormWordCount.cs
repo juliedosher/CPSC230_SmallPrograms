@@ -15,6 +15,13 @@ namespace SmallProgramsShowcase
         public FormWordCount()
         {
             InitializeComponent();
+
+            btnClose.Click += BtnClose_Click;
+        }
+
+        private void BtnClose_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

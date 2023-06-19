@@ -32,8 +32,8 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.miBMI = new System.Windows.Forms.ToolStripMenuItem();
-            this.passwordGeneratorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.wordCounterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.miPassGen = new System.Windows.Forms.ToolStripMenuItem();
+            this.miWordCount = new System.Windows.Forms.ToolStripMenuItem();
             this.miExit = new System.Windows.Forms.ToolStripMenuItem();
             this.miHelp = new System.Windows.Forms.ToolStripMenuItem();
             this.btnExit = new System.Windows.Forms.Button();
@@ -57,12 +57,13 @@
             // 
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.miBMI,
-            this.passwordGeneratorToolStripMenuItem,
-            this.wordCounterToolStripMenuItem,
+            this.miPassGen,
+            this.miWordCount,
             this.miExit});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
             this.fileToolStripMenuItem.Text = "File";
+            this.fileToolStripMenuItem.Click += new System.EventHandler(this.fileToolStripMenuItem_Click);
             // 
             // miBMI
             // 
@@ -70,17 +71,17 @@
             this.miBMI.Size = new System.Drawing.Size(180, 22);
             this.miBMI.Text = "BMI Calculator";
             // 
-            // passwordGeneratorToolStripMenuItem
+            // miPassGen
             // 
-            this.passwordGeneratorToolStripMenuItem.Name = "passwordGeneratorToolStripMenuItem";
-            this.passwordGeneratorToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.passwordGeneratorToolStripMenuItem.Text = "Password Generator";
+            this.miPassGen.Name = "miPassGen";
+            this.miPassGen.Size = new System.Drawing.Size(180, 22);
+            this.miPassGen.Text = "Password Generator";
             // 
-            // wordCounterToolStripMenuItem
+            // miWordCount
             // 
-            this.wordCounterToolStripMenuItem.Name = "wordCounterToolStripMenuItem";
-            this.wordCounterToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.wordCounterToolStripMenuItem.Text = "Word Counter";
+            this.miWordCount.Name = "miWordCount";
+            this.miWordCount.Size = new System.Drawing.Size(180, 22);
+            this.miWordCount.Text = "Word Counter";
             // 
             // miExit
             // 
@@ -146,8 +147,8 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem miBMI;
-        private System.Windows.Forms.ToolStripMenuItem passwordGeneratorToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem wordCounterToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem miPassGen;
+        private System.Windows.Forms.ToolStripMenuItem miWordCount;
         private System.Windows.Forms.ToolStripMenuItem miExit;
         private System.Windows.Forms.ToolStripMenuItem miHelp;
         private System.Windows.Forms.Button btnExit;
