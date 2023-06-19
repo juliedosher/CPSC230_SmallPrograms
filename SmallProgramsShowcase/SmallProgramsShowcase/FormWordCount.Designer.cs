@@ -38,7 +38,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 18);
+            this.label1.Location = new System.Drawing.Point(12, 22);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(220, 13);
             this.label1.TabIndex = 0;
@@ -63,22 +63,24 @@
             // 
             // btnCount
             // 
-            this.btnCount.Location = new System.Drawing.Point(222, 226);
+            this.btnCount.BackColor = System.Drawing.SystemColors.Window;
+            this.btnCount.Location = new System.Drawing.Point(227, 226);
             this.btnCount.Name = "btnCount";
-            this.btnCount.Size = new System.Drawing.Size(75, 35);
+            this.btnCount.Size = new System.Drawing.Size(85, 29);
             this.btnCount.TabIndex = 3;
             this.btnCount.Text = "Count";
-            this.btnCount.UseVisualStyleBackColor = true;
+            this.btnCount.UseVisualStyleBackColor = false;
             // 
             // btnClose
             // 
+            this.btnClose.BackColor = System.Drawing.SystemColors.Window;
             this.btnClose.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnClose.Location = new System.Drawing.Point(607, 390);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(75, 23);
             this.btnClose.TabIndex = 4;
             this.btnClose.Text = "Close";
-            this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.UseVisualStyleBackColor = false;
             // 
             // FormWordCount
             // 
