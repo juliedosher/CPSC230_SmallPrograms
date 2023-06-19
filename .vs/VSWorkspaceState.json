@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\SmallProgramsShowcase",
+    "\\SmallProgramsShowcase\\SmallProgramsShowcase"
   ],
+  "SelectedNode": "\\SmallProgramsShowcase\\SmallProgramsShowcase\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
