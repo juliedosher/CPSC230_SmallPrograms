@@ -33,10 +33,16 @@ namespace SmallProgramsShowcase
 
         private void MiHelp_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("\"Small Programs Showcase\" by Julie Dosher \nfor CPSC 23000 Summer 2023");
+            MessageBox.Show("\"Small Programs Showcase\" by Julie Dosher \nfor CPSC 23000 " +
+                "Summer 2023");
         }
 
         private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
         {
 
         }
