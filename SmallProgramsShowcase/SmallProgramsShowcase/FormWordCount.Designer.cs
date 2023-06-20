@@ -30,9 +30,9 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.rtbStory = new System.Windows.Forms.RichTextBox();
-            this.rtbCount = new System.Windows.Forms.RichTextBox();
             this.btnCount = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
+            this.lisCount = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // label1
@@ -51,15 +51,6 @@
             this.rtbStory.Size = new System.Drawing.Size(511, 172);
             this.rtbStory.TabIndex = 1;
             this.rtbStory.Text = "";
-            // 
-            // rtbCount
-            // 
-            this.rtbCount.Location = new System.Drawing.Point(549, 48);
-            this.rtbCount.Name = "rtbCount";
-            this.rtbCount.ReadOnly = true;
-            this.rtbCount.Size = new System.Drawing.Size(176, 327);
-            this.rtbCount.TabIndex = 2;
-            this.rtbCount.Text = "";
             // 
             // btnCount
             // 
@@ -82,14 +73,22 @@
             this.btnClose.Text = "Close";
             this.btnClose.UseVisualStyleBackColor = false;
             // 
+            // lisCount
+            // 
+            this.lisCount.FormattingEnabled = true;
+            this.lisCount.Location = new System.Drawing.Point(549, 48);
+            this.lisCount.Name = "lisCount";
+            this.lisCount.Size = new System.Drawing.Size(176, 329);
+            this.lisCount.TabIndex = 5;
+            // 
             // FormWordCount
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(753, 441);
+            this.Controls.Add(this.lisCount);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnCount);
-            this.Controls.Add(this.rtbCount);
             this.Controls.Add(this.rtbStory);
             this.Controls.Add(this.label1);
             this.Name = "FormWordCount";
@@ -103,8 +102,8 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.RichTextBox rtbStory;
-        private System.Windows.Forms.RichTextBox rtbCount;
         private System.Windows.Forms.Button btnCount;
         private System.Windows.Forms.Button btnClose;
+        private System.Windows.Forms.ListBox lisCount;
     }
 }

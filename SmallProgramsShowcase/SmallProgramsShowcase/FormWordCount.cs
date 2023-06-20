@@ -22,7 +22,7 @@ namespace SmallProgramsShowcase
 
         private void BtnCount_Click(object sender, EventArgs e)
         {
-            rtbCount.Text = "";
+            lisCount.Items.Clear();
             Char[] delimiters = { ' ', '\n', '\r', ',', '.', ':', ';' };
             string[] words = rtbStory.Text.Split(delimiters, StringSplitOptions.RemoveEmptyEntries);
             for (int i = 0; i < words.Length; i++)
@@ -36,7 +36,7 @@ namespace SmallProgramsShowcase
                 wordCount = AlphabetizeDictionary(wordCount);
                 foreach (var word in wordCount)
                 {
-                    rtbCount.Text += word.Key + ": " + word.Value + "\n";
+                    lisCount.Items.Add(word.Key + ": " + word.Value);
                 }
         }
             else

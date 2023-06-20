@@ -31,11 +31,11 @@
             this.label1 = new System.Windows.Forms.Label();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.btnBrowse = new System.Windows.Forms.Button();
-            this.rtbPasswords = new System.Windows.Forms.RichTextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.richTextBox3 = new System.Windows.Forms.RichTextBox();
             this.btnGenerate = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
+            this.lisPasswords = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // label1
@@ -64,15 +64,6 @@
             this.btnBrowse.TabIndex = 2;
             this.btnBrowse.Text = "Browse";
             this.btnBrowse.UseVisualStyleBackColor = false;
-            // 
-            // rtbPasswords
-            // 
-            this.rtbPasswords.Location = new System.Drawing.Point(15, 133);
-            this.rtbPasswords.Name = "rtbPasswords";
-            this.rtbPasswords.ReadOnly = true;
-            this.rtbPasswords.Size = new System.Drawing.Size(200, 245);
-            this.rtbPasswords.TabIndex = 3;
-            this.rtbPasswords.Text = "";
             // 
             // label2
             // 
@@ -112,16 +103,24 @@
             this.btnClose.Text = "Close";
             this.btnClose.UseVisualStyleBackColor = false;
             // 
+            // lisPasswords
+            // 
+            this.lisPasswords.FormattingEnabled = true;
+            this.lisPasswords.Location = new System.Drawing.Point(15, 133);
+            this.lisPasswords.Name = "lisPasswords";
+            this.lisPasswords.Size = new System.Drawing.Size(200, 238);
+            this.lisPasswords.TabIndex = 8;
+            // 
             // FormPassGen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(398, 389);
+            this.Controls.Add(this.lisPasswords);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnGenerate);
             this.Controls.Add(this.richTextBox3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.rtbPasswords);
             this.Controls.Add(this.btnBrowse);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.label1);
@@ -137,10 +136,10 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.Button btnBrowse;
-        private System.Windows.Forms.RichTextBox rtbPasswords;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.RichTextBox richTextBox3;
         private System.Windows.Forms.Button btnGenerate;
         private System.Windows.Forms.Button btnClose;
+        private System.Windows.Forms.ListBox lisPasswords;
     }
 }
