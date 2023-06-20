@@ -20,14 +20,14 @@ namespace SmallProgramsShowcase
             btnClose.Click += BtnClose_Click;
         }
 
-        private void BtnCalc_Click(object sender, EventArgs e)
+        private void BtnCalc_Click(object sender, EventArgs e)                                          // Calculate button: gets BMI and status
         {
-            try
+            try                                                                                         // checks if inputs are ints
             {
                 int weight = Convert.ToInt32(tbWeight.Text);
                 int height = Convert.ToInt32(tbHeight.Text);
 
-                if (height < 0 || weight < 0)
+                if (height < 0 || weight < 0)                                                           // checks if inputs are positive
                 {
                     MessageBox.Show("The mass and height must be positive numbers.");
                 }
@@ -36,8 +36,8 @@ namespace SmallProgramsShowcase
                     double bmi = CalculateBMI(weight, height);
                     string status = GetStatus(bmi);
 
-                    rtbBMI.Text = bmi.ToString("0.##");
-                    rtbStatus.Text = status;
+                    rtbBMI.Text = bmi.ToString("0.##");                                                 // prints BMI to 2 decimal points
+                    rtbStatus.Text = status;                                                            // prints BMI status string
                 }
             }
             catch (Exception)
@@ -47,7 +47,7 @@ namespace SmallProgramsShowcase
             
         }
 
-        private double CalculateBMI(int weightLb, int heightIn)
+        private double CalculateBMI(int weightLb, int heightIn)                                         // calculates BMI and returns double
         {
             double weight = weightLb * 0.45359237;
             double height = heightIn * 0.0254;
@@ -55,7 +55,7 @@ namespace SmallProgramsShowcase
             return weight / (height * height);
         }
 
-        private string GetStatus(double bmi)
+        private string GetStatus(double bmi)                                                            // determines BMI status and returns string
         {
             string bmiClass = "";
             if (bmi < 18.5)
@@ -81,7 +81,7 @@ namespace SmallProgramsShowcase
             return bmiClass;
         }
 
-        private void BtnClose_Click(object sender, EventArgs e)
+        private void BtnClose_Click(object sender, EventArgs e)                                         // Close button: closes form
         {
             Close();
         }

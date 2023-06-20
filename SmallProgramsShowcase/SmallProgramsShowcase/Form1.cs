@@ -25,40 +25,41 @@ namespace SmallProgramsShowcase
             btnExit.Click += BtnExit_Click;
         }
 
-        private void MiBMI_Click(object sender, EventArgs e)
-        {
+        private void MiBMI_Click(object sender, EventArgs e)                                            // Form > BMI Calculator
+        {                                      
             FormBMI form = new FormBMI();
-            form.ShowDialog();
+            form.ShowDialog();                                                                          // launches new form as modal
         }
 
-        private void MiPassGen_Click(object sender, EventArgs e)
+        private void MiPassGen_Click(object sender, EventArgs e)                                        // Form > Password Generator
         {
             FormPassGen form = new FormPassGen();
-            form.ShowDialog();
+            form.ShowDialog();                                                                          // launches new form as modal
         }
 
-        private void MiWordCount_Click(object sender, EventArgs e)
+        private void MiWordCount_Click(object sender, EventArgs e)                                      // Form > Word Counter
         {
             FormWordCount form = new FormWordCount();
-            form.ShowDialog();
+            form.ShowDialog();                                                                          // launces new form as modal
         }
 
-        private void MiExit_Click(object sender, EventArgs e)
+        private void MiExit_Click(object sender, EventArgs e)                                           // File > Exit
+        {
+            Close();                                                                                    // closes program
+        }
+
+        private void BtnExit_Click(object sender, EventArgs e)                                          // Exit button: closes program
         {
             Close();
         }
 
-        private void BtnExit_Click(object sender, EventArgs e)
-        {
-            Close();
-        }
-
-        private void MiHelp_Click(object sender, EventArgs e)
+        private void MiHelp_Click(object sender, EventArgs e)                                           
         {
             MessageBox.Show("\"Small Programs Showcase\" by Julie Dosher \nfor CPSC 23000 " +
                 "Summer 2023");
         }
 
+        // automatically generated functions
         private void Form1_Load(object sender, EventArgs e)
         {
 

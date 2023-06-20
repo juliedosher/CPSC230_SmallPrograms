@@ -19,7 +19,7 @@ namespace SmallProgramsShowcase
             btnClose.Click += BtnClose_Click;
         }
 
-        private void BtnClose_Click(object sender, EventArgs e)
+        private void BtnClose_Click(object sender, EventArgs e)                                         // Close button: closes form
         {
             Close();
         }

@@ -32,7 +32,7 @@
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.btnBrowse = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.richTextBox3 = new System.Windows.Forms.RichTextBox();
+            this.rtbNum = new System.Windows.Forms.RichTextBox();
             this.btnGenerate = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
             this.lisPasswords = new System.Windows.Forms.ListBox();
@@ -75,13 +75,13 @@
             this.label2.TabIndex = 4;
             this.label2.Text = "# of passwords:";
             // 
-            // richTextBox3
+            // rtbNum
             // 
-            this.richTextBox3.Location = new System.Drawing.Point(126, 74);
-            this.richTextBox3.Name = "richTextBox3";
-            this.richTextBox3.Size = new System.Drawing.Size(89, 23);
-            this.richTextBox3.TabIndex = 5;
-            this.richTextBox3.Text = "";
+            this.rtbNum.Location = new System.Drawing.Point(126, 74);
+            this.rtbNum.Name = "rtbNum";
+            this.rtbNum.Size = new System.Drawing.Size(89, 23);
+            this.rtbNum.TabIndex = 5;
+            this.rtbNum.Text = "";
             // 
             // btnGenerate
             // 
@@ -119,7 +119,7 @@
             this.Controls.Add(this.lisPasswords);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnGenerate);
-            this.Controls.Add(this.richTextBox3);
+            this.Controls.Add(this.rtbNum);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnBrowse);
             this.Controls.Add(this.richTextBox1);
@@ -137,7 +137,7 @@
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.Button btnBrowse;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.RichTextBox richTextBox3;
+        private System.Windows.Forms.RichTextBox rtbNum;
         private System.Windows.Forms.Button btnGenerate;
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.ListBox lisPasswords;
