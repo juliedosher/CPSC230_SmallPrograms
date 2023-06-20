@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.rtbFileName = new System.Windows.Forms.RichTextBox();
             this.btnBrowse = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.rtbNum = new System.Windows.Forms.RichTextBox();
@@ -47,13 +47,13 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Enter name of file: ";
             // 
-            // richTextBox1
+            // rtbFileName
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(126, 31);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(179, 23);
-            this.richTextBox1.TabIndex = 1;
-            this.richTextBox1.Text = "";
+            this.rtbFileName.Location = new System.Drawing.Point(126, 31);
+            this.rtbFileName.Name = "rtbFileName";
+            this.rtbFileName.Size = new System.Drawing.Size(179, 23);
+            this.rtbFileName.TabIndex = 1;
+            this.rtbFileName.Text = "";
             // 
             // btnBrowse
             // 
@@ -122,7 +122,7 @@
             this.Controls.Add(this.rtbNum);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnBrowse);
-            this.Controls.Add(this.richTextBox1);
+            this.Controls.Add(this.rtbFileName);
             this.Controls.Add(this.label1);
             this.Name = "FormPassGen";
             this.Text = "Password Generator";
@@ -134,7 +134,7 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.RichTextBox rtbFileName;
         private System.Windows.Forms.Button btnBrowse;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.RichTextBox rtbNum;

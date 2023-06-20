@@ -1,4 +1,11 @@
-﻿using System;
+﻿/*
+ * Julie Dosher
+ * juliegdosher@lewisu.edu
+ * CPSC 230
+ * Assignment 4 - Small Programs Showcase
+ */
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -53,12 +60,13 @@ namespace SmallProgramsShowcase
             Close();
         }
 
-        private void MiHelp_Click(object sender, EventArgs e)                                           
+        private void MiHelp_Click(object sender, EventArgs e)                                           // Help: opens "about" dialog box
         {
             MessageBox.Show("\"Small Programs Showcase\" by Julie Dosher \nfor CPSC 23000 " +
                 "Summer 2023");
         }
 
+        
         // automatically generated functions
         private void Form1_Load(object sender, EventArgs e)
         {
